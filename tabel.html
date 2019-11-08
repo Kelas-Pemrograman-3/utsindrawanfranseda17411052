@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tabel.css">
+    <title>Document</title>
+</head>
+<nav>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Data</a> 
+            <ul>
+                <li>
+                    <a href="">Data Mahasiswa</a>
+                </li>
+                <li>
+                    <a href="">Mata Kuliah</a>
+                </li>
+                <li>
+                    <a href="">Administrasi</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+    </ul>
+</nav>
+<body>
+<div class="container">
+    <div class="header-page">
+        <h2>Tabel Data Mahasiswa</h2>
+    </div>
+    <a href="form.html">
+        <button class= "Button-Utama">Insert Data </button>
+    </a>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Nama Lengkap</th>
+            <th>Jenis Kelamin</th>
+            <th>Jurusan</th>
+            <th>Alamat</th>
+            <th>Action</th>
+        </tr>
+                
+        </thead>
+        <tr>
+            <td>aceng kekacauan</td>
+            <td>aditya pratama</td>
+            <td>Laki-Laki</td>
+            <td>Sistem Informasi</td>
+            <td>jonggol</td>
+            <td>
+                <a href="#">
+                    <button class="Button-Utama">Edit</button>
+                </a>
+                <a href="#">
+                    <button onclick="return hapus()" class="Button-Danger">Hapus</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>donny </td>
+            <td>donny dwi</td>
+            <td>Laki-Laki</td>
+            <td>Sistem Informasi</td>
+            <td>kemiling</td>
+            <td>
+                    <a href="#">
+                        <button class="Button-Utama">Edit</button>
+                    </a>
+                    <a href="#">
+                        <button onclick="return hapus()" class="Button-Danger">Hapus</button>
+                    </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+   
+</body>
+<!-- <script>
+    function hapus () {
+    let konfirmasi = confirm('Apakah Anda Yakin?')
+    console.log(konfirmasi)
+    }
+</script> -->
+<script>
+    function hapus() {
+        let konfirmasi=confirm('Anda Yakin?')
+        if(konfirmasi)
+        {alert('Data Telah dihapus')}
+        else{alert('Proses dibatalkan')}
+        
+    }
+</script>
+</html>

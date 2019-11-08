@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: century;
+    color: rgb(255, 255, 255);
+    background: url(k.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.Register{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-5%, 5%);
+    background: rgba(0,0,0,0,5);
+    padding: 50px;
+    width: 310px;
+    height: 100;
+    box-shadow: 0 0 10px 5px rgb(214, 106, 106);
+}
+.Username{
+    font-family: Century;
+    font-size: 10pt;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #d82929;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+    display: compact;  
+    border-radius: 5px;
+}
+.Password{
+    font-family: Century;
+    font-size: 10pt;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #000000;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: compact;
+    border-radius: 5px;
+}
+.nama{
+    font-family: Century;
+    font-size: 10pt;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #000000;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 41px;
+    display: compact;
+    border-radius: 5px;
+}
+.jeniskelamin{
+    font-family: Century;
+    font-size: 13 pt; 
+    color:#000000;
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 0px;
+    display: compact;
+}
+.jurusan{
+    font-family: Century;
+    
+}
